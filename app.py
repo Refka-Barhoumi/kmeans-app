@@ -1,6 +1,8 @@
 import streamlit as st
 import numpy as np
 import pandas as pd
+import matplotlib
+matplotlib.rcParams['font.family'] = ['Segoe UI Emoji', 'Segoe UI', 'sans-serif']
 import matplotlib.pyplot as plt
 import seaborn as sns
 from sklearn.cluster import KMeans
